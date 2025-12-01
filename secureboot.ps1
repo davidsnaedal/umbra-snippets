@@ -14,7 +14,7 @@
 ####BEGIN CONFIGURATION####
 #configure only if your bios is password protected, you may add multiple passwords if you use different passwords for different devices, the script will try them all
 #!!WARNING!! using 3 or more 'bad' passwords could lock you out of the bios, use at your own risk!
-$biosPasswords = @("1539") #example: $biosPasswords = @("password1","password2")
+$biosPasswords = @("1593") #example: $biosPasswords = @("password1","password2")
 $suspendBitlocker = $false #set to $true if your implementation of bitlocker requires suspend before enabling secureboot to avoid bugging users with locked machines until they unlock. This is normally not needed! (Tested on multiple Lenovo devices)
 $thirdPartyBios = $False #set to $true if you want to use third party config (e.g. when using Linux), only works if your bios is password protected
 ####END CONFIGURATION####
